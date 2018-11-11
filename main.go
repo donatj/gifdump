@@ -63,6 +63,5 @@ func main() {
 		}
 
 		png.Encode(f, visible)
-
 	}
 }
