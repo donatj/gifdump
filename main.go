@@ -49,7 +49,9 @@ func main() {
 			log.Fatal(err)
 		}
 
-		// visible = image.NewRGBA(b)
+		if *uncomposed {
+			visible = image.NewRGBA(b)
+		}
 
 		// if false {
 		for y := sb.Min.Y; y < sb.Max.Y; y++ {
