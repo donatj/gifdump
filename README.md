@@ -1,5 +1,7 @@
 # gifdump
 
+[![CI](https://github.com/donatj/gifdump/actions/workflows/ci.yml/badge.svg)](https://github.com/donatj/gifdump/actions/workflows/ci.yml)
+
 Dump a gif to it's frames!
 
 ## Usage:
