@@ -1,3 +1,3 @@
 module github.com/donatj/gifdump
 
-go 1.15
+go 1.20
